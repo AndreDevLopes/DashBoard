@@ -6,11 +6,14 @@ import './menu.css';
 export default class Menu extends Component {
     render() {
         return (
+            
             <div className="menu">
-                <ul className="nav flex-column">
-                    <li className="nav-item"><Link to="/" className="nav-link dark">Gráficos </Link>  </li>
-                    <li className="nav-item"><Link to="/tabela" className="nav-link dark">Tabelas </Link> </li>
-                    <li className="nav-item"><Link to="/card" className="nav-link dark">Cards  </Link>  </li>
+                <div> <h3 id="menuh3">DashBoard</h3> </div>
+                <ul className="nav flex-column dark">
+
+                   <div className="link"><li className="nav-item"><Link to="/"  id="menuli">Gráficos </Link>  </li> </div> 
+                   <div className="link"><li className="nav-item"><Link to="/tabela" id="menuli">Tabelas </Link> </li> </div> 
+                   <div className="link"><li className="nav-item"><Link to="/card" id="menuli">Cards  </Link>  </li> </div> 
                 </ul>
             </div>
         )
