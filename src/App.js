@@ -1,6 +1,6 @@
 import React from 'react';
-import Menu from './components/menu/Menu';
-import Graf from './components/graficos/Graf';
+import  DashBord from './components/DashBord/DashBord'
+
 import "./app.css";
 
 
@@ -8,15 +8,11 @@ import "./app.css";
 
 function App() {
   return (
-    <div className="container">
-    <div className="row ">
-      
-      <Menu />
-      <Graf />
-
-    </div>
-     
-    </div>
+   
+     <div>
+      <DashBord />
+     </div>
+   
   );
 }
 
