@@ -13,7 +13,8 @@ export default class Menu extends Component {
 
                    <div className="link"><li className="nav-item"><Link to="/"  id="menuli">Gráficos </Link>  </li> </div> 
                    <div className="link"><li className="nav-item"><Link to="/tabela" id="menuli">Tabelas </Link> </li> </div> 
-                   <div className="link"><li className="nav-item"><Link to="/card" id="menuli">Cards  </Link>  </li> </div> 
+                   <div className="link"><li className="nav-item"><Link to="/card" id="menuli">Cards </Link>  </li> </div> 
+                   <div className="link"><li className="nav-item"><Link to="/data" id="menuli">Dados </Link>  </li> </div> 
                 </ul>
             </div>
         )

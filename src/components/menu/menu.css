@@ -17,6 +17,7 @@
 }
 #menuli{
     color: white;
+    padding:10px;
 }
 #menuli:hover{
     text-decoration: none;
@@ -24,6 +25,10 @@
 }
 .link:hover{
     background-color: rgb(6, 76, 141);
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: white;
 
 }
+
 
