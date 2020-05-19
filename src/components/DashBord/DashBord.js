@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from '../menu/Menu';
+import Footer from '../footer/footer';
 
 
 export default class DashBord extends Component {
@@ -7,7 +8,8 @@ export default class DashBord extends Component {
         return (
             <div>
                 
-             <Menu />  
+             <Menu /> 
+             <Footer /> 
                   
             </div>
         )
