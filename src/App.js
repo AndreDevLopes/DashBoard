@@ -3,7 +3,7 @@ import Bar from './components/bar/Bar';
 import Menu from './components/menu/Menu';
 import Footer from './components/footer/footer';
 import Graf from './components/graficos/Graf';
-
+import GrafL from './components/graficos/grafL';
 import "./app.css";
 
 
@@ -17,6 +17,7 @@ function App() {
       <div className="row container">
         <Menu /> 
         <Graf />
+        <GrafL />
       </div>
       <Footer />
 

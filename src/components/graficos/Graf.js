@@ -22,7 +22,7 @@ export default class Graf extends Component {
     render() {
         return (
             <div className="graf">
-                <h2>Bar Example (custom size)</h2>
+                <h3>Bar Example (custom size)</h3>
                     <Bar
                     data={data}
                     width={100}
