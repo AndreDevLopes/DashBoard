@@ -1,2 +1,2 @@
 # DashBoard
-DashBoard para sinais eletromiográficos (EMG)
+DashBoard Faita com React.js
