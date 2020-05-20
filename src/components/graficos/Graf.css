@@ -1,19 +1,42 @@
 .graf{
    
     width: 500px;
-    height: 500px;
+    height: 300px;
     position: absolute;
     top: 80px;
     left: 250px;
     border-radius: 15px;
+    
+   
 
 }
 .grafl{
     width: 500px;
-    height: 500px;
+    height: 300px;
     position: absolute;
     top: 80px;
     left: 850px;
     border-radius: 15px;
+    
+
+}
+.polar{
+
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    border-radius: 15px;
+    
+}
+.radar{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+    border-radius: 15px;
+    
 
 }

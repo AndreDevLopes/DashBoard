@@ -25,11 +25,6 @@ export default class Graf extends Component {
                 <h3>Bar Example (custom size)</h3>
                     <Bar
                     data={data}
-                    width={100}
-                    height={50}
-                    options={{
-                        maintainAspectRatio: false
-                    }}
                     />
             </div>
         )
