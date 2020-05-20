@@ -1,2 +1,2 @@
 # DashBoard
-DashBoard Faita com React.js
+DashBoard Feita com React.js
