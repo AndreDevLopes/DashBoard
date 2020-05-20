@@ -1,5 +1,7 @@
 import React from 'react';
-import  DashBord from './components/DashBord/DashBord'
+import Bar from './components/bar/Bar';
+import Menu from './components/menu/Menu';
+import Footer from './components/footer/footer';
 
 import "./app.css";
 
@@ -10,7 +12,10 @@ function App() {
   return (
    
      <div>
-      <DashBord />
+      <Bar />
+      <Menu />
+      <Footer />
+
      </div>
    
   );

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './menu.css';
-import Bar from '../bar/Bar';
-import Graf from '../graficos/Graf';
+
+
 
 
 export default class Menu extends Component {
     render() {
         return (
             <div>
-                    <Bar />        
+                           
                 <div className="menu">
                     
                     <ul className="nav flex-column dark">
@@ -21,7 +21,7 @@ export default class Menu extends Component {
                     </ul>
                     
                 </div>
-                 <Graf /> 
+                
             </div>
            
         )
